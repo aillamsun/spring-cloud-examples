@@ -1,0 +1,16 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri:  https://git.oschina.net/sungang/super_examples/
+          searchPaths:  base_common
+          username: 1015905041@qq.com
+          password: sg911120
